@@ -1,0 +1,7 @@
+f = open("miArchivo.txt", 'w')
+f.write("Hola Mundo!")
+f.close()
+f = open("miArchivo.txt", 'r')
+datos = f.read()
+f.close()
+print(datos)
